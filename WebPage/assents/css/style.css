@@ -1,0 +1,173 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';    
+}
+
+header{
+    width: 100%;
+    height: 700px;
+}
+
+h1{
+    font-weight: bolder;
+    margin: 25px;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu{
+    width: 100%;
+    height: 130px;
+    background-color: #074387;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu ul li a{
+    margin-right: 6px;
+    font-size: 0.9em;
+  
+}
+
+#menu ul{
+    width: 50%;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu li {
+    width: 20%;
+    height: inherit;
+    list-style: none;
+    float: left;
+    font-size: 1.5em;
+    text-align: justify;
+    padding-top: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#menu ul li{
+    width: 20%;
+    height: 83px;
+    list-style: none;
+    float: left;
+    font-family: arial;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#menu ul li:hover{
+    cursor: pointer;
+    background-color: #0C79F5
+}
+
+#menu li a:hover{
+    color: #ffffff;
+}  
+
+#cardProdutos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #074387;
+}
+
+.caixa_produto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px; 
+    transition: transform 0.2s;
+}
+
+.caixa_produto:hover {
+    transform: scale(1.05);
+}
+
+
+.caixa_titulo {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.caixa_imagem img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.caixa_texto {
+    margin-top: 10px;
+}
+
+
+.caixa_texto p {
+    font-size: 1em;
+    color: #666;
+}
+
+#Sobrenos{
+    width: 100%;
+    height: 800px;
+    background-image: url(/assents/img/imgfundo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 25px;
+    margin: 0;
+    margin-bottom: 50px;
+    background-position: center;
+
+}
+
+#text-left{
+    width: 750px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 50px;
+    color: #ffffff;
+}
+
+#contatos{
+    width: 100%;
+    height: 300px;
+    background-color:black;
+}
+
+#caixa-contatos, #caixa-contatos2{
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding-top: 30px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
